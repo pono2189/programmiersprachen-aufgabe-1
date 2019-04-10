@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++11  -rdynamic CMakeFiles/programmiersprachen-aufgabe-2.dir/programmiersprachen-aufgabe-2.cpp.o  -o programmiersprachen-aufgabe-2 
