@@ -121,7 +121,18 @@ TEST_CASE ("describe_is_prime","[is_prime]") {
     REQUIRE (is_prime(47) == true);
 }
 
+double mile_to_kilometer(double mile){
+    double km; 
+    km = mile * 1.60934; 
+    return km; 
+    
+}
 
+TEST_CASE ("mile_to_kilometer","[mile_to_kilometer]") {
+    REQUIRE (mile_to_kilometer(2) == Approx(3.21869));
+    REQUIRE (mile_to_kilometer(23) == Approx(37.0149));
+    REQUIRE (mile_to_kilometer(0) == 0);
+}
 
 int main(int argc, char* argv[])
 {
